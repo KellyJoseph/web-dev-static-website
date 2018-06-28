@@ -1,0 +1,170 @@
+h1, h2, h3{
+	text-align: center;
+	clear: both;	
+}
+
+h1{
+	font-size: 40px sans-serif;
+}
+
+
+h3{
+	font-size: smaller;
+	font-weight: lighter;
+}
+
+img{
+	max-width: 600px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: auto; 
+    padding-right: auto;
+}
+
+
+p{	
+	color: black;
+	padding: 25px;
+	margin: 15px;
+	text-align: left;}
+
+body{	
+	background-color: silver;
+	font-family: 'Open Sans', arial;
+	font-size: 20px;
+	width: 95%;
+	text-align: center;
+ 	margin:0 auto;
+ 	opacity: 0.9;
+  	/*border: black solid;*/
+  	background-image: url(images/snes-wallpaper-8.jpg);
+  	/*background-image: url(images/mariostars.jpg);*/
+
+}
+
+
+#main{
+	margin-right: 0%;
+	width: 78%;
+	float: right;
+	padding: 2%;
+	background-color: silver
+	/*border: blue solid 1px;
+	border-width: thin;*/
+	opacity: 1.0;
+}
+
+ #article{
+	width: 68%;
+	float: left;
+	/*border: green solid;*/
+	float: left;
+	opacity: 1.0;
+}
+ #aside{
+	width: 30%;
+	height: 100%;
+	float: right;
+	/*border: blue dashed 1px;*/
+	text-align: left;
+	/*border: orange solid;*/
+	opacity: 0.9;
+	}
+
+#col1 {
+	float: left;
+	width: 48%;
+}
+#col2 {
+	float: right;
+	width: 48%;
+}
+
+
+#header{
+	width: 100%;
+	float: center;
+
+}
+
+#header img {
+	width: 100%;
+}
+
+ #footer{
+	width: 100%;
+	font-size: small;
+	/*border: red dashed thin;*/
+	clear: both;
+}
+
+#navigation{
+	width: 18%;
+	height: 100%;
+	float: left;
+	padding-left: 0em;
+	padding-right: 0em;
+	background-color: lightgray;
+	opacity: : 0.8;
+}
+ul#menu a { 		/* hyperlinks of parent ancestor type unorderd list and id menu, 
+	each individual list item/menu tab, each hyperlink is a list item so this is basically targeting the same thing as the previous one */
+	text-decoration: none;
+	padding-right: 0px;
+	line-height: 2em;
+}
+
+ul#menu {	
+	flood-color: blue; 
+	font-size: normal;
+	float: left;
+	list-style-type: none;
+	text-align: center;
+    width: 100%;
+    padding-left: 0em;
+    margin-right: 0;
+    padding:0;
+    margin: 0;
+}
+
+ul#menu li { 		/* list items wth an ancestor/parent of unorderd list and id type menu, basically the list items or individual tabs*/
+	background-color: silver;
+	padding-left: 1em; /*padding within the tab/block elements*/
+	padding-right: 1em;
+	margin: 0.5em; /*determines width around each list element*/
+	/*display: inline-block;*/
+	display: block;
+	text-align: center;
+	border: blue solid: 0px;
+	float: center;/*makes tabs allign to the left*/
+}
+
+ul#menu a { 		/* hyperlinks of parent ancestor type unorderd list and id menu, 
+	each individual list item/menu tab, each hyperlink is a list item so this is basically targeting the same thing as the previous one */
+	text-decoration: none;
+	padding-right: 0px;
+	line-height: 2em;
+	display: block;
+}
+
+ul#menu li.current a {	 
+	padding: 0;
+	margin-right: 0;
+	color: white;
+}
+ul#menu li.current {
+	background: blue;
+}
+#col1 {
+	float: left;
+	width: 48%;
+}
+#col2 {
+	float: right;
+	width: 48%;
+}
+
+img#main {
+  opacity: 1;
+} 
